@@ -11,7 +11,8 @@ var DefaultManager *Manager
 func init() {
 	DefaultManager = &Manager{}
 
-	go DefaultManager.handle()
+    // igniter
+	//go DefaultManager.handle()
 }
 
 type Manager struct {
